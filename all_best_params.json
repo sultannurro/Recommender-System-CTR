@@ -1,0 +1,57 @@
+{
+    "DIN-DICE": {
+        "learning_rate": 0.0001,
+        "batch_size": 2048,
+        "dropout_rate": 0.4,
+        "l2_reg": 1e-05,
+        "l2_dense": 0.0001,
+        "dice_alpha_init": 0.35,
+        "dice_beta_init": 1.0,
+        "dice_epsilon": 1e-09,
+        "attention_hidden": 16,
+        "label_smoothing": 0.15,
+        "hidden_units": [
+            128,
+            64
+        ]
+    },
+    "DIN-PReLU": {
+        "learning_rate": 0.0001,
+        "batch_size": 2048,
+        "dropout_rate": 0.3,
+        "l2_reg": 5e-05,
+        "l2_dense": 5e-05,
+        "prelu_alpha_init": 0.35,
+        "attention_hidden": 8,
+        "label_smoothing": 0.15,
+        "hidden_units": [
+            128,
+            64
+        ]
+    },
+    "DeepFM": {
+        "learning_rate": 0.0005,
+        "batch_size": 2048,
+        "dropout_rate": 0.3,
+        "l2_reg": 0.001,
+        "l2_dense": 0.0001,
+        "label_smoothing": 0.05,
+        "hidden_units": [
+            64,
+            32,
+            16
+        ]
+    },
+    "Baseline": {
+        "learning_rate": 0.0005,
+        "batch_size": 2048,
+        "dropout_rate": 0.7,
+        "l2_reg": 1e-05,
+        "l2_dense": 0.0001,
+        "label_smoothing": 0.0,
+        "hidden_units": [
+            64,
+            32
+        ]
+    }
+}

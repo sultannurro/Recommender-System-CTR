@@ -1,0 +1,16 @@
+{
+    "learning_rate": 0.0001,
+    "batch_size": 2048,
+    "dropout_rate": 0.4,
+    "l2_reg": 1e-05,
+    "l2_dense": 0.0001,
+    "dice_alpha_init": 0.35,
+    "dice_beta_init": 1.0,
+    "dice_epsilon": 1e-09,
+    "attention_hidden": 16,
+    "label_smoothing": 0.15,
+    "hidden_units": [
+        128,
+        64
+    ]
+}
